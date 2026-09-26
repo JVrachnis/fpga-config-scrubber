@@ -1,0 +1,139 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below, and cite the SYSYFOS publications listed under references."
+type: software
+title: "fpga-config-scrubber: a two-dimensional configuration-memory scrubber for the Xilinx Zynq-7000 (completion, silicon characterisation and hardening)"
+authors:
+  - family-names: Vrachnis
+    given-names: John
+    affiliation: "University of Piraeus"
+date-released: 2026-09-26
+license: MIT
+repository-code: "https://github.com/JVrachnis/fpga-config-scrubber"
+keywords:
+  - FPGA
+  - Zynq-7000
+  - configuration memory scrubbing
+  - single event upset
+  - Frame-ECC
+  - ICAP
+  - interleaved parity
+  - radiation effects
+references:
+  - type: thesis
+    thesis-type: "MSc thesis"
+    title: "An Internal Configuration-Memory Scrubber for Xilinx Zynq-7000 FPGAs"
+    authors:
+      - family-names: Vrachnis
+        given-names: John
+    institution:
+      name: "University of Piraeus"
+    year: 2026
+  - type: article
+    title: "Single Event Effects Characterization of the Programmable Logic of Xilinx Zynq-7000 FPGA Using Very/Ultra High-Energy Heavy Ions"
+    authors:
+      - {family-names: Vlagkoulis, given-names: Vasileios}
+      - {family-names: Sari, given-names: Aitzan}
+      - {family-names: Vrachnis, given-names: John}
+      - {family-names: Antonopoulos, given-names: Georgios}
+      - {family-names: Segkos, given-names: Nikolaos}
+      - {family-names: Psarakis, given-names: Mihalis}
+      - {family-names: Tavoularis, given-names: Antonios}
+      - {family-names: Furano, given-names: Gianluca}
+      - {family-names: Boatella Polo, given-names: Cesar}
+      - {family-names: Poivey, given-names: Christian}
+      - {family-names: Ferlet-Cavrois, given-names: Veronique}
+      - {family-names: Kastriotou, given-names: Maria}
+      - {family-names: Fernandez Martinez, given-names: Pablo}
+      - {family-names: Garcia Alia, given-names: Ruben}
+      - {family-names: Voss, given-names: Kay-Obbe}
+      - {family-names: Schuy, given-names: Christoph}
+    journal: "IEEE Transactions on Nuclear Science"
+    volume: 68
+    issue: 1
+    start: 36
+    end: 45
+    year: 2021
+    month: 1
+    doi: "10.1109/TNS.2020.3033188"
+  - type: conference-paper
+    title: "Configuration Memory Scrubber for the Xilinx Zynq-7000 FPGA based on a 2D coding scheme"
+    authors:
+      - {family-names: Vlagkoulis, given-names: Vasileios}
+      - {family-names: Psarakis, given-names: Mihalis}
+      - {family-names: Sari, given-names: Aitzan}
+      - {family-names: Vrachnis, given-names: John}
+      - {family-names: Antonopoulos, given-names: Georgios}
+      - {family-names: Tavoularis, given-names: Antonios}
+      - {family-names: Furano, given-names: Gianluca}
+      - {family-names: Boatella Polo, given-names: Cesar}
+      - {family-names: Poivey, given-names: Christian}
+      - {family-names: Ferlet-Cavrois, given-names: Veronique}
+      - {family-names: Kastriotou, given-names: Maria}
+      - {family-names: Fernandez Martinez, given-names: Pablo}
+      - {family-names: Garcia Alia, given-names: Ruben}
+    conference:
+      name: "SEFUW: SpacE FPGA Users Workshop, 5th Edition"
+      location: "ESA/ESTEC, Noordwijk, The Netherlands"
+    year: 2020
+    month: 3
+    url: "https://indico.esa.int/event/328/contributions/5383/"
+  - type: conference-paper
+    title: "Analysis of the Single Event Upsets in the Programmable Logic of 28 nm Xilinx Zynq-7000 FPGA due to Heavy Ion Irradiation"
+    authors:
+      - {family-names: Vlagkoulis, given-names: Vasileios}
+      - {family-names: Sari, given-names: Aitzan}
+      - {family-names: Vrachnis, given-names: John}
+      - {family-names: Antonopoulos, given-names: Georgios}
+      - {family-names: Segkos, given-names: Nikolaos}
+      - {family-names: Psarakis, given-names: Mihalis}
+    conference:
+      name: "Single Event Effects Symposium and Military and Aerospace Programmable Logic Devices Workshop (SEE/MAPLD)"
+      location: "San Diego, CA, USA"
+    year: 2019
+    month: 5
+    url: "https://www.seemapld.org/archive/2019/0522_WED/1040%20-%20SEE-MAPLD19_Psarakis_Zynq_Radiation.pdf"
+  - type: conference-paper
+    title: "Configuration Memory Scrubbing of the Xilinx Zynq-7000 FPGA using a Mixed 2-D Coding Technique"
+    authors:
+      - {family-names: Vlagkoulis, given-names: Vasileios}
+      - {family-names: Sari, given-names: Aitzan}
+      - {family-names: Proko, given-names: Juljan}
+      - {family-names: Zografakis, given-names: Dimitrios}
+      - {family-names: Psarakis, given-names: Mihalis}
+      - {family-names: Tavoularis, given-names: Antonios}
+      - {family-names: Furano, given-names: Gianluca}
+      - {family-names: Boatella-Polo, given-names: Cesar}
+      - {family-names: Poivey, given-names: Christian}
+      - {family-names: Ferlet-Cavrois, given-names: Veronique}
+      - {family-names: Kastriotou, given-names: Maria}
+      - {family-names: Fernandez Martinez, given-names: Pablo}
+      - {family-names: Garcia Alia, given-names: Ruben}
+    collection-title: "2019 19th European Conference on Radiation and Its Effects on Components and Systems (RADECS)"
+    start: 1
+    end: 4
+    year: 2019
+    month: 9
+    doi: "10.1109/RADECS47380.2019.9745693"
+  - type: article
+    title: "Configuration Memory Scrubbing of SRAM-Based FPGAs Using a Mixed 2-D Coding Technique"
+    authors:
+      - {family-names: Vlagkoulis, given-names: Vasileios}
+      - {family-names: Sari, given-names: Aitzan}
+      - {family-names: Antonopoulos, given-names: Georgios}
+      - {family-names: Psarakis, given-names: Mihalis}
+      - {family-names: Tavoularis, given-names: Antonios}
+      - {family-names: Furano, given-names: Gianluca}
+      - {family-names: Boatella-Polo, given-names: Cesar}
+      - {family-names: Poivey, given-names: Christian}
+      - {family-names: Ferlet-Cavrois, given-names: Veronique}
+      - {family-names: Kastriotou, given-names: Maria}
+      - {family-names: Fernandez Martinez, given-names: Pablo}
+      - {family-names: Garcia Alia, given-names: Ruben}
+    journal: "IEEE Transactions on Nuclear Science"
+    volume: 69
+    issue: 4
+    start: 871
+    end: 882
+    year: 2022
+    month: 4
+    doi: "10.1109/TNS.2022.3151977"

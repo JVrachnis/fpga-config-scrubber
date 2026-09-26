@@ -1,0 +1,48 @@
+# Vivado / Vitis
+*.jou
+*.log
+*.str
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.gen/
+*.ip_user_files/
+*.xpr
+*.bit
+*.ltx
+*.dcp
+*.rpt
+*.tcl.out
+vivado/replay_events*.tcl
+.snapshot/
+xsim.dir/
+
+# GHDL
+*.cf
+*.o
+sim/*/work/
+sim/*/unisim/
+sim/core_tb/core_tb
+sim/injector_tb/injsim_tb
+e~*.o
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Beam data (never commit)
+*.rbd
+*.rbd.bin
+*.msd
+*.ebd
+*.ll
+*_UPSETS.csv
+temp/
+
+# Keys / env
+*.pem
+*.key
+.env*
