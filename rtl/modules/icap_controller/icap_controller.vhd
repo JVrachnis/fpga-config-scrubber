@@ -11,7 +11,7 @@
 --
 -- Author       = J. Vrachnis
 --
--- Copyright    = University of Piraeus 2020
+-- Copyright    = John Vrachnis 2020-2026 (developed at the Embedded Systems Lab, University of Piraeus)
 -------------------------------------------------------------------------------
 
 library ieee;

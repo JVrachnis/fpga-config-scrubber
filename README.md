@@ -213,7 +213,9 @@ machine-readable versions of all of the above.
   technical supervisor of the thesis.
 - **Supervision:** Prof. Mihalis Psarakis, University of Piraeus.
 - **John Vrachnis:**
-  - the ICAP controller (2020);
+  - the ICAP controller, parity calculator and syndrome handler (2020), and the AXI fault
+    injector and wrapper (2021);
+  - the 2018 readback-parsing tools (`analysis/fdz/`);
   - the 2019 ICAP and fault-injection prototypes;
   - the 2018–19 beam-data pipeline;
   - and, in 2026: the port to Vivado 2025.2, the continuous-scan driver, the observability
@@ -225,14 +227,13 @@ machine-readable versions of all of the above.
   CERN SPS North Area and at GSI within the collaborations acknowledged in the publications
   above.
 
-`rtl/README.md` gives the per-file split. Some inherited blocks have no author header; they
-are described there and not included.
+`rtl/README.md` gives the per-file split.
 
 ## Not included
 
 - **Inherited SYSYFOS RTL.** This covers the top level, arbiter, 2-D EDC, parity memories,
-  FIFOs, syndrome handler, parity calculator, fault injector and AXI wrapper. It is University
-  of Piraeus / TELETEL code with no redistribution licence, or its authorship is unrecorded.
+  FIFOs and the generic dual-port RAM, written by other SYSYFOS / TELETEL authors and not
+  licensed by them for redistribution.
   `rtl/README.md` describes each block and the 2026 changes made to it.
 - **Beam data.** No raw readbacks, per-upset records, pattern tables, netlists or mask files.
   The pattern-derived replay vector files (`vivado/replay_events*.tcl`) are also left out.

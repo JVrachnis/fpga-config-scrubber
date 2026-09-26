@@ -9,15 +9,12 @@ Credits:
 
 Scope of this licence: the files in this repository authored by John Vrachnis.
 Exceptions:
-  - rtl/modules/icap_controller/icap_controller.vhd was written by J. Vrachnis
-    within the SYSYFOS project and keeps its original header line
-    "Copyright = University of Piraeus 2020". That notice is retained as found.
   - prototypes/2019_fault_injection_ip/Fault_Injection_v1_0*.vhd are based on
     the AMD/Xilinx Vivado AXI4-Lite peripheral template.
 
 MIT License
 
-Copyright (c) 2026 John Vrachnis
+Copyright (c) 2018-2026 John Vrachnis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
